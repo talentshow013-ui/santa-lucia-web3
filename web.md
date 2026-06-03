@@ -23,7 +23,7 @@ Sitio premium con un hero protagonista: un **cubo 3D que rota** mostrando los pr
 - Ritmo dark→light→dark→light = sensación de "cambio de pantalla"
 
 ## Secciones (orden en src/App.tsx)
-1. **Hero 3D** — cubo rotando con proyectos en las caras + banda de texto corriendo + familia + hue glow + titular
+1. **Hero 3D inmersivo** — una SALA en perspectiva (estás adentro): el texto "CONSTRUCTORA SANTA LUCÍA" corre por las paredes, neón azul→rojo en las uniones, marcos de luz en el techo y la familia en el centro. CSS en `index.css` (`.imr`, `.imr-room`, `.imr-surface`, `.imr-band`, keyframes `bandScroll`/`neonShift`/`text-glow`). La familia se sube en `/img/familia.png` (PNG sin fondo); si no existe, el centro queda limpio.
 2. **Trayectoria** (oscura) — 30 años, contadores animados (LOGROS) + timeline de **proyectos entregados** (TRAYECTORIA, datos placeholder)
 3. **Proyectos** (clara) — showcase con selector lateral + panel destacado con crossfade → abre **ProjectModal**
 4. **Servicios** (oscura) — acordeón editorial con números gigantes (6 pilares) + ticker de fondo
